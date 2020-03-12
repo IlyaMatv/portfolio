@@ -1,0 +1,21 @@
+.main {
+  height: 100vh;
+  background-color: #ffe1f5;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.greeting {
+  display: flex;
+  flex-direction: column;
+}
+.photo {
+  height: 400px;
+  width: 300px;
+  background-color: #f2f2f2;
+}

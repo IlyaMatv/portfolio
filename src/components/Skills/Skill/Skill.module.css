@@ -1,0 +1,20 @@
+.skill {
+    border: 1px solid #f5d105;
+    width: 25%;
+    background-color: #fff;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+}
+
+.skill h3 {
+    font-size: 30px;
+}
+
+.img {
+    border: 1px solid yellowgreen;
+}
+
+.discription {
+    border: 1px solid blue;
+}

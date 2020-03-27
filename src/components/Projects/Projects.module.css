@@ -1,4 +1,32 @@
 .projects {
     height: 100vh;
     background: #efd8ff;
+    padding-top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container {
+    width: 70%;
+    max-height: 700px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+.myWorks {
+    height: 20%;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold; 
+    border: 1px solid #cf1070;
+}
+
+.myWorks__items {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
 }

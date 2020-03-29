@@ -1,4 +1,26 @@
-.worksItem {
+.works__item {
     width: 35%;
+    display: grid;
+    grid-template-rows: 5fr 2fr;
     background-color: rgb(180, 177, 177);
+}
+
+.works__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.works__btn {
+    padding: 10px 40px;
+}
+
+.works__footer {
+    background-color: rgb(218, 218, 218);
+}
+
+.works__prj {
+    background-color: #797979;
+    margin: 20px 20px 0 20px;
+    min-height: 120px;
 }

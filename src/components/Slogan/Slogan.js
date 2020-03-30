@@ -5,7 +5,12 @@ const Slogan = (props) => {
 
     return (
         <div className={classes.slogan}>
-            
+            <div className={classes.container}>
+                <div className={classes.slogan__items}>
+                    <p>Рассматриваю варианты удаленной работы</p>
+                    <button className={classes.slogan__btn}>Нанять меня</button>
+                </div>
+            </div>
         </div>
     )
 }

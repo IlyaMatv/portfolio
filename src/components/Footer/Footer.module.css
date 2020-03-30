@@ -10,8 +10,40 @@
     width: 70%;
     height: 60%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     border: 1px solid black;
     margin-bottom: 30px;
-  }
+}
+
+.footer__name {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(156, 156, 156);
+}
+
+.footer__items {
+    border: 1px solid #323232;
+    display: flex;
+}
+
+.footer__item {
+    width: 60px;
+    height: 60px;
+    margin: 0 30px;
+    background-color: rgb(107, 107, 107);
+}
+
+.footer__items :nth-child(1) {
+    margin-left: 0;
+}
+.footer__items :nth-child(4) {
+    margin-right: 0;
+}
+
+.copyright {
+    background-color: rgb(156, 156, 156);
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,15 +1,13 @@
 .contacts {
-    height: 100vh;
+    min-height: 900px;
     background-color: #ffb0bf;
     display: flex;
     justify-content: center;
 }
 
 .container {
-    margin-top: 80px;
+    margin-top: 100px;
     width: 70%;
-    max-height: 140px;
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,35 +17,36 @@
 }
 
 .contacts__text {
+    margin-top: 20px;
     font-size: 30px;
     font-weight: bold;
 }
 
 .contacts__form {
     border: 1px solid #fdf037;
-    max-height: 400px;
-    height: 100%;
+    min-height: 500px;
+    min-width: 600px;
     display: flex;
     flex-direction: column;
-    width: 50%;
     justify-content: space-between;
 }
 
 .contacts__form input {
     background: #C4C4C4;
-    min-height: 15%;
+    min-height: 60px;
     font-size: 30px;
 }
 
 .contacts__form textarea {
     font-size: 30px;
     resize: none;
-    height: 50%;
+    min-height: 280px;
     background: #C4C4C4;
 }
 
 .contacts__btn {
     font-weight: bold;
-    width: 15%;
-    height: 6%;
+    font-size: 20px;
+    min-height: 60px;
+    min-width: 240px;
 }

@@ -1,9 +1,10 @@
 .skill {
-    width: 25%;
+    min-width: 260px;
     background-color: #fff;
     text-align: center;
     display: grid;
     grid-template-rows: 1fr 2fr 2fr;
+    margin-top: 20px;
 }
 
 .skill h3 {
@@ -12,8 +13,29 @@
 
 .img {
     border: 1px solid yellowgreen;
+    min-width: 70px;
+    min-height: 70px;
+    margin: 0 auto;
 }
 
 .discription {
     border: 1px solid blue;
+}
+
+@media (max-width: 1200px) {
+    .skill {
+        min-width: 220px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .skill {
+        min-width: 180px;
+    }
+}
+
+@media (max-width: 820px) {
+    .skill {
+        margin-bottom: 10px;
+    }
 }

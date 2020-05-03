@@ -3,7 +3,10 @@
   background-color: #b7e2ff;
   display: flex;
   justify-content: center;
+  position: fixed;
+  width: 100%;
 }
+
 .container {
   width: 80%;
   display: flex;

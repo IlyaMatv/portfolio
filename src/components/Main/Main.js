@@ -12,7 +12,7 @@ const Main = (props) => {
                     <span>Я front-end разработчик</span>
                 </div>
                 <div className={classes.photo}>
-                    <img src="" alt=""/>
+                    <img src="" alt="" />
                 </div>
             </div>
         </div>
